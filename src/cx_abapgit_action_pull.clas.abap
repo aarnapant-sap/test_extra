@@ -1,0 +1,15 @@
+CLASS cx_abapgit_action_pull DEFINITION
+  PUBLIC
+  INHERITING FROM cx_abapgit_exception
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS cx_abapgit_action_pull IMPLEMENTATION.
+ENDCLASS.

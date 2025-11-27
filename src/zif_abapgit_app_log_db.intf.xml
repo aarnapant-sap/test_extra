@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_ABAPGIT_APP_LOG_DB</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ABAPGit Application Log Database Class</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_ABAPGIT_APP_LOG_DB</CLSNAME>
+     <CMPNAME>MASS_READ_APP_LOG_BY_REPO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mass Read ABAPGit Application Log for a given Repository</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_ABAPGIT_APP_LOG_DB</CLSNAME>
+     <CMPNAME>READ_APP_LOG_BY_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read ABAPGit Application Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_ABAPGIT_APP_LOG_DB</CLSNAME>
+     <CMPNAME>WRITE_APP_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write ABAPGit</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>MASS_READ_APP_LOG_BY_REPO</CMPNAME>
+     <SCONAME>IV_DEV_PACKAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Package</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASS_READ_APP_LOG_BY_REPO</CMPNAME>
+     <SCONAME>IV_REPO_KEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAPGit Repository Key</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASS_READ_APP_LOG_BY_REPO</CMPNAME>
+     <SCONAME>IV_REPO_URL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAPGit Repository URL</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASS_READ_APP_LOG_BY_REPO</CMPNAME>
+     <SCONAME>RT_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>AbapGIt Application Log Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_APP_LOG_BY_ID</CMPNAME>
+     <SCONAME>IV_APP_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>16 Byte UUID in 32 Characters (Hexadecimal Encoded)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_APP_LOG_BY_ID</CMPNAME>
+     <SCONAME>RS_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Overview of abapGIT application run logs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE_APP_LOG</CMPNAME>
+     <SCONAME>CX_ABAPGIT_APP_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exception Class for ABAPGit Application Log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WRITE_APP_LOG</CMPNAME>
+     <SCONAME>IS_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAPGit application run record</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
